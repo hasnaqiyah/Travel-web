@@ -1,0 +1,220 @@
+/* 
+---------------------------------------------
+html & body
+--------------------------------------------- 
+ */
+
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, div, a, big, cite, code, del, dfn, em, font, img, ins, q,
+s, small, strike, strong, sub, b, u, i, center, ol, ul, li,
+figure, header, nav, section, article, aside, footer, {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+}
+
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.clearfix {
+  display: inline-block;
+}
+
+html[xmlns] .clearfix {
+  display: block;
+}
+
+* html .clearfix {
+  height: 1%;
+}
+
+ul, li {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+header, nav, section, article, aside, footer, hgroup {
+  display: block;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  background-color: #fff;
+  font-size: 16px;
+  -ms-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: #2a2a2a;
+}
+
+ul {
+  margin-bottom: 0px;
+}
+
+p {
+  font-size: 15px;
+  line-height: 28px;
+  color: #7a7a7a;
+}
+
+img {
+  width: 100%;
+  overflow: hidden;
+}
+
+/* 
+---------------------------------------------
+Categories Page
+--------------------------------------------- 
+*/
+
+.top-categories {
+  margin-top: -100px;
+}
+
+.top-categories .item {
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  padding: 30px;
+}
+
+.top-categories .item .icon {
+  background-color: #f7f7f7;
+  width: 75px;
+  height: 75px;
+  display: inline-block;
+  text-align: center;
+  line-height: 75px;
+  border-radius: 10px;
+}
+
+.top-categories .item .icon img {
+  max-width: 36px;
+  border-radius: 0px;
+}
+
+.top-categories .item h4 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.top-categories .item span {
+  font-size: 15px;
+  color: #afafaf;
+  display: block;
+}
+
+.top-categories .item span.counter {
+  margin-top: 10px;
+  font-style: normal;
+  font-size: 15px;
+  font-weight: 500;
+  display: inline-block;
+  padding: 5px 8px;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  color: #00bdfe;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px rgb(0 0 0 / 6%);
+  margin-right: 10px;
+}
+
+
+/* 
+---------------------------------------------
+page heading
+--------------------------------------------- 
+*/
+
+.page-heading {
+  background-image: url(assets/images/heading-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  padding-top: 200px;
+  padding-bottom: 130px;
+  text-align: center;
+  background-color: #2a2a2a;
+}
+
+.page-heading h2 {
+  color: #fff;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 74px;
+}
+
+.page-heading h2.space-need {
+  padding: 0px 30px;
+}
+
+.page-heading h2 b {
+  font-style: normal;
+  color: #00bdfe;
+}
+
+.page-heading p {
+  color: #fff;
+  padding: 30px 0px;
+  margin: 40px 75px 0px 75px;
+  border-top: 2px solid rgba(250,250,250,0.2);
+}
+
+.page-heading h6 {
+  margin-top: 30px;
+  padding-top: 30px;
+  border-top: 2px solid rgba(250,250,250,0.2);
+  font-size: 20px;
+  color: #fff;
+}
+
+
+
+/* 
+---------------------------------------------
+footer 
+--------------------------------------------- 
+*/
+
+footer.no-space {
+  margin-top: 0px;
+}
+
+footer {
+  background-color: #5ABFAB;
+  text-align: center;
+  padding: 25px 0px;
+  margin-top: 120px;
+}
+
+footer p {
+  color: #fff;
+  font-weight: 300;
+}
+
